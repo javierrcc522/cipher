@@ -1,0 +1,19 @@
+// $(document).ready(function() {
+//   $("h1").click(function() {
+//     alert("This is a header.");
+//   });
+//   });
+var text = prompt("Write a sentence");
+  console.log(text);
+
+
+var firstlast = function(sentence){
+    var first= sentence.charAt(0);
+    var lastChar = sentence.length-1;
+    var last = sentence.charAt(lastChar);
+
+  return first+last;
+}
+
+var twoLetters = firstlast(text);
+console.log(twoLetters);
