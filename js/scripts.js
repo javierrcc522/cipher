@@ -80,3 +80,19 @@ var flip2 = function(reversed)
 alert(text + fixedletters);
 
  console.log( text + fixedletters);
+
+
+ // midletter
+
+var midLetter = function(text)
+  {
+      var bonkers = text.charAt(text.length/2);
+      return bonkers;
+console.log(bonkers);
+var answer = bonkers;
+
+
+alert(answer);
+console.log(answer);
+
+  }
